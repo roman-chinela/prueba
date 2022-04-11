@@ -1,0 +1,290 @@
+
+/* elementos de la imagen de portada */
+.contenedor{
+   display: grid; 
+}
+.fotoPortadaP{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+.fotoPortadaH{
+    width: 25%;
+    height: 25%;
+}
+
+#titPrinc{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold; 
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.subTit1{
+    color: aliceblue;
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+    font-family: inter;
+    display: flex;
+    justify-content: center;
+}
+.subTit2{
+    color: aliceblue;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    font-family: inter;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    font-family: inter;
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: azure;
+}
+
+.gridPfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    color: aliceblue;
+    font-family: inter;
+    background-color: rgb(2, 26, 2);
+    font-size:16px;
+    font-family: inter;
+    font-weight: bold;
+}
+.itemFooter{
+    font-family: inter;
+    font-size: 16px;
+}
+
+.fondo{
+   background-image: url('../imagenes/imagen quirofano1.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+
+/* formato de las listas */
+}
+ul li{
+    font-family: inter;
+    font-size: 23px;
+    color: black;
+    font-style: bold;
+}
+/* formato de los enlaces*/
+a{
+    color: rgb(3, 3, 31);
+    text-decoration: none;
+    font-style: bold;
+}
+
+/* formato de cada una de las secciones*/
+
+
+/* formacion profesional*/
+.formProf{
+    background-image: url('../imagenes/quirofano4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.gridPformprof{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: start;
+    
+}
+.formProfT{
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+    Geneva,
+    Verdana,
+    sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.subTitformprof{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* experiencia profesional*/
+
+.gridPexprof{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+}
+.itemExprof{
+    font-family: inter;
+    font-size: 25px;
+}
+.bodyExprof{
+    background-image: url('../imagenes/quirofano5.jpg');
+}
+.expProfT{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* prestaciones*/
+.bodyPrest{
+    background-color: rgb(162, 212, 197);
+} 
+.contenedorPres {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15rem 15rem;
+    justify-items: center;
+    background-color: rgb(194, 218, 210);
+}
+.itemPres1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.itemPres2{
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode';
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.itemPres4{
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode';
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.headerPrest{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(222, 216, 228);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}   
+
+.subtPest{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: rgb(196, 191, 181);
+}
+
+
+/* nuestro espacio*/
+
+.bodynuestEsp{
+    background-image: url('../imagenes/quirofano6.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tituloNE{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.gridContainerNE{
+    display: grid;
+    grid-template-columns:110%;
+    grid-template-rows: auto;
+    
+}
+.itemNE{
+    font-family: inter;
+    font-size: 30px;
+}
+
+/* fotos de la seccion nuestro espacio */
+.recep{
+    width: 50%;
+    height: 85%;
+}
+.consul{
+    width: 50%;
+    height: 65%;
+} 
+
+/*seccion turnos*/
+
+.bodyTurn{
+    background-image: url('../imagenes/quirofano7.jpg');
+}
+.turnContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20rem 20rem 20rem;
+    justify-items: center;
+
+}
+
+.headerTurn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size: 30px;
+}
+
+.itemTurn1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size: 25px;
+}
+.itemTurn2{
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande';
+    font-size: 25px;
+}
+.itemTurn3{
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande';
+    font-size: 25px;
+}
+.itemTurn4{
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande';
+    font-size: 25px;
+}
+
+
+/* clase comun a todas las secciones */
+.formsecc{
+    font-family: inter;
+    font-size: 25px;
+    color: black;
+}
+.titulosSecc{
+    display: flex;
+    justify-content: center;
+    font-family: inter;
+    font-size: 30px;
+}
